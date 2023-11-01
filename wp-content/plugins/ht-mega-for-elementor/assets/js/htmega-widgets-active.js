@@ -808,6 +808,10 @@ template: '<div class="htmega-alert-wrap-'+notify_opt.wrapid+' '+notify_opt.widt
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
+            keyboard: {
+                enabled: swiper_opt.keyboardscroll,
+                onlyInViewport: false,
+            },
             breakpoints: {
                 [tablet_width]: {
                   direction: swiper_opt.tablet_direction,

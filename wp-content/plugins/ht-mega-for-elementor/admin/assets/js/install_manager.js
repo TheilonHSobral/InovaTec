@@ -79,6 +79,7 @@
                     data: {
                         action   : 'htmega_ajax_plugin_activation',
                         location : $plugindata['location'],
+                        plgactivenonce : HTTM.plgactivenonce,
                     },
                 } ).done( function( result ) {
                     if ( result.success ) {
@@ -212,6 +213,7 @@
                     data: {
                         action   : 'htmega_ajax_theme_activation',
                         themeslug : $themedata['slug'],
+                        plgactivenonce : HTTM.plgactivenonce,
                     },
                 } ).done( function( result ) {
                     if ( result.success ) {
@@ -251,6 +253,7 @@
                 data: {
                     action   : 'htmega_ajax_theme_activation',
                     themeslug : $themedata['slug'],
+                    plgactivenonce : HTTM.plgactivenonce,
                 },
             }).done( function( response ) {
                 if ( response.success ) {

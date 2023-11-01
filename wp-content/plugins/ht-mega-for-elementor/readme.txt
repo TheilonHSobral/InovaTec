@@ -2,8 +2,8 @@
 Contributors: hasthemes, htplugins, devitemsllc, tarekht, zenaulislam, aslamhasib
 Tags: elementor, elementor addons, elementor widgets, elementor templates, addons, elementor slider, elementor page builder, mega menu, addons for elementor, post grid, elements, header footer builder
 Requires at least: 5.0
-Tested up to: 6.3
-Stable tag: 2.3.2
+Tested up to: 6.4
+Stable tag: 2.3.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -409,17 +409,19 @@ This widget is easy to use and comes with a variety of features that make it a v
 
 <strong>[360 Rotation Widget](https://wphtmega.com/widget/elementor-360-rotation-widget/)</strong> - Create an awesome 360° product image rotation experience using the 360 rotation widget that brings your website visitors up close and personal with your products. As they explore from every angle, it gives them a closer look so they can better see the quality of your products.
 
-<strong>[Pricing Table Flip Box Widget](https://wphtmega.com/elementor-pricing-table-flip-box-widget/)</strong> Flip Box Widget makes your pricing content more engaging with an interactive flip view.
+<strong>[Pricing Table Flip Box Widget](https://wphtmega.com/elementor-pricing-table-flip-box-widget/)</strong> - Flip Box Widget makes your pricing content more engaging with an interactive flip view.
 
-<strong>[Flip Switcher Pricing Table Widget](https://wphtmega.com/elementor-pricing-table-flip-box-widget/)</strong> The Flip Switcher Pricing Table is a great way to showcase your pricing plans. Build an attractive, customized, & professional-looking pricing table with the Flip Switcher Pricing table widget. With this widget, you can create a modern & eye-catching switching table for your site. You can also adjust the design with a range of customizable settings.
+<strong>[Flip Switcher Pricing Table Widget](https://wphtmega.com/elementor-pricing-table-flip-box-widget/)</strong> - The Flip Switcher Pricing Table is a great way to showcase your pricing plans. Build an attractive, customized, & professional-looking pricing table with the Flip Switcher Pricing table widget. With this widget, you can create a modern & eye-catching switching table for your site. You can also adjust the design with a range of customizable settings.
 
-<strong>[Dynamic Gallery  Widget](https://wphtmega.com/widget/elementor-dynamic-gallery-widget/)</strong> With the Dynamic Gallery widget, you can showcase all of your post content in beautiful, interactive layouts. Make your posts dynamic with hover animations and popups.
+<strong>[Dynamic Gallery  Widget](https://wphtmega.com/widget/elementor-dynamic-gallery-widget/)</strong> - With the Dynamic Gallery widget, you can showcase all of your post content in beautiful, interactive layouts. Make your posts dynamic with hover animations and popups.
 
-<strong>[Advanced Slider Widget](https://wphtmega.com/widget/elementor-advanced-slider-widget/)</strong>  With the HT Mega Advanced Slider widget, you can develop stunning slides with a live editor, custom content, animation options and basic styling options. Additionally, access to a template library allows you to easily create effective slides that will stand out from your competition. With the power of the HT Mega Advanced Slider widget, you can quickly boost the visual appeal of your website and effectively engage potential customers.
+<strong>[Advanced Slider Widget](https://wphtmega.com/widget/elementor-advanced-slider-widget/)</strong> - With the HT Mega Advanced Slider widget, you can develop stunning slides with a live editor, custom content, animation options and basic styling options. Additionally, access to a template library allows you to easily create effective slides that will stand out from your competition. With the power of the HT Mega Advanced Slider widget, you can quickly boost the visual appeal of your website and effectively engage potential customers.
 
-<strong>[Flip Carousel Widget](https://wphtmega.com/widget/elementor-flip-carousel-widget/)</strong> Enhance your website's visual appeal with the Elmentor Flip Carousel widget for HT Mega. Create interactive and captivating carousels with flip animations that grab your visitors' attention. Showcase your products, portfolio items, or any content in an engaging and dynamic way. With easy customization options, you can tailor the widget to match your website's style effortlessly.
+<strong>[Flip Carousel Widget](https://wphtmega.com/widget/elementor-flip-carousel-widget/)</strong> - Enhance your website's visual appeal with the Elmentor Flip Carousel widget for HT Mega. Create interactive and captivating carousels with flip animations that grab your visitors' attention. Showcase your products, portfolio items, or any content in an engaging and dynamic way. With easy customization options, you can tailor the widget to match your website's style effortlessly.
 
-<strong>[Interactive Circle Infographic Widget](https://wphtmega.com/widget/elementor-interactive-circle-infographic-widget/)</strong> The Interactive Circle Infographic widget is your key to presenting content in a visually captivating way within the Elementor page builder. This exclusive element offers a unique and interactive circular layout, enriched with mouse effects and hover animations that effortlessly engage your website visitors. With HTMega Interactive Circle widget, you can showcase your content beautifully and leave a lasting impression on your audience.
+<strong>[Interactive Circle Infographic Widget](https://wphtmega.com/widget/elementor-interactive-circle-infographic-widget/)</strong> - The Interactive Circle Infographic widget is your key to presenting content in a visually captivating way within the Elementor page builder. This exclusive element offers a unique and interactive circular layout, enriched with mouse effects and hover animations that effortlessly engage your website visitors. With HTMega Interactive Circle widget, you can showcase your content beautifully and leave a lasting impression on your audience.
+
+<strong>[Copy Coupon Code Widget](https://wphtmega.com/widget/elementor-copy-coupon-code-widget/)</strong> - Elementor Copy Coupon Code Widget is a powerful tool for website designers and developers who use the Elementor page builder. This widget simplifies the process of creating and displaying coupon codes on your website. With just a few clicks, you can add a stylish and eye-catching coupon code box to your web pages, making it easy for visitors to copy and use the provided discount codes.
 
 
 **[PURCHASE HT Mega PRO FROM OUR WEBSITE]( https://wphtmega.com/pricing/ )**
@@ -489,6 +491,17 @@ Visit [HasThemes](https://hasthemes.com/) for more details about HTML, Shopify a
 
 
 == Changelog ==
+= Version: 2.3.4 - Date: 2023-11-01 =
+* Added: Keyboard Scroll Option in Scroll Navigation Widget
+* Added: Alignment Option in Animated Heading Widget
+* Fixed: A few minor issues
+* Tested: Compatibility with the latest version of WordPress
+* Tested: Compatibility with the latest version of Elementor
+
+= Version: 2.3.3 - Date: 2023-10-18 =
+* Fixed: Autoplay Animation speed field display issue when autoplay switcher off.
+* Fixed: A few minor issues
+
 = Version: 2.3.2 - Date: 2023-10-11 =
 * Fixed: A few minor issues
 

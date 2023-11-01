@@ -179,6 +179,8 @@ class HTMega_Template_Library{
      * Ajax request.
      */
     function templates_ajax_request(){
+        
+        check_ajax_referer('htmega_actication_verifynonce', 'plgactivenonce');
 
         if ( isset( $_REQUEST ) ) {
 
@@ -248,6 +250,8 @@ class HTMega_Template_Library{
     * Ajax response required data
     */
     public function ajax_plugin_data(){
+        check_ajax_referer('htmega_actication_verifynonce', 'plgactivenonce');
+        
         if ( isset( $_POST ) ) {
             $freeplugins = explode( ',', $_POST['freeplugins'] );
             $proplugins = explode( ',', $_POST['proplugins'] );
@@ -368,6 +372,7 @@ class HTMega_Template_Library{
      * Ajax plugins activation request
      */
     public function ajax_plugin_activation() {
+        check_ajax_referer('htmega_actication_verifynonce', 'plgactivenonce');
 
         if ( ! current_user_can( 'install_plugins' ) || ! isset( $_POST['location'] ) || ! $_POST['location'] ) {
             wp_send_json_error(
@@ -403,6 +408,7 @@ class HTMega_Template_Library{
     * Required Theme Activation Request
     */
     function ajax_theme_activation() {
+        check_ajax_referer('htmega_actication_verifynonce', 'plgactivenonce');
 
         if ( ! current_user_can( 'install_themes' ) || ! isset( $_POST['themeslug'] ) || ! $_POST['themeslug'] ) {
             wp_send_json_error(

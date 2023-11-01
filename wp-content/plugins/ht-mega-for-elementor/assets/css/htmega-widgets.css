@@ -17739,6 +17739,18 @@ justify-content: center;
     z-index: 1;
   }
   
+  .htmega-animated-alignment-left .cd-headline::before,
+  .htmega-animated-alignment-right .cd-headline::before {
+    left: 0;
+    -webkit-transform: translateX(0) translateY(-14px);
+    -ms-transform: translateX(0) translateY(-14px);
+    transform: translateX(0) translateY(-14px);
+  }
+  .htmega-animated-alignment-right .cd-headline::before {
+    left: auto;
+    right: 0;
+  }
+
   /*
    * Panel Slider
   */
@@ -18128,9 +18140,9 @@ justify-content: center;
     min-height: auto!important;
     overflow: visible;
 }
-.ht-scroll-type-horizontal.ht-scroll-image .thumb {
+/* .ht-scroll-type-horizontal.ht-scroll-image .thumb {
     height: 100%!important;
-}
+} */
 
 /* Overlay */
 .ht-scroll-image-overlay {

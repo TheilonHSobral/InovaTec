@@ -147,7 +147,32 @@ class HTMega_Elementor_Widget_Animated_Heading extends Widget_Base {
                     'separator' => 'before',
                 ]
             );
-            
+            $this->add_responsive_control(
+                'heading_align',
+                [
+                    'label'   => __( 'Alignment', 'htmega-addons' ),
+                    'type'    => Controls_Manager::CHOOSE,
+                    'options' => [
+                        'left'    => [
+                            'title' => __( 'Left', 'htmega-addons' ),
+                            'icon'  => 'eicon-text-align-left',
+                        ],
+                        'center' => [
+                            'title' => __( 'Center', 'htmega-addons' ),
+                            'icon'  => 'eicon-text-align-center',
+                        ],
+                        'right' => [
+                            'title' => __( 'Right', 'htmega-addons' ),
+                            'icon'  => 'eicon-text-align-right',
+                        ],
+                    ],
+                    'selectors' => [
+                        '{{WRAPPER}} .htmega-animated-heading, {{WRAPPER}} .cd-headline'   => 'text-align: {{VALUE}};',
+                    ],
+                    'separator' => 'before',
+                    'render_type' => 'template',
+                ]
+            );
         $this->end_controls_section();
 
         // Before Style tab section
@@ -497,7 +522,13 @@ class HTMega_Elementor_Widget_Animated_Heading extends Widget_Base {
 
         $settings   = $this->get_settings_for_display();
         $rotateAmimationClass = ( $settings['animation_type'] == 'scale' || $settings['animation_type'] == 'rotate-2' || $settings['animation_type'] == 'rotate-3') ? 'letters':'';
+        
         $this->add_render_attribute( 'heading_area_attr', 'class', 'htmega-animated-heading htmega-style-'.$settings['layout_style'] );
+
+        if ( isset( $settings['heading_align'] ) && ! empty( $settings['heading_align'] ) ) {
+            $this->add_render_attribute( 'heading_area_attr', 'class', 'htmega-animated-alignment-'.$settings['heading_align'] ); 
+        }
+
         $this->add_render_attribute( 'heading_attr', 'class', 'cd-headline '. $rotateAmimationClass .' headline-placeholder '.$settings['animation_type'] );
         $animatedheading_text = explode(",", esc_html( $settings['animated_heading_text'] ) );
        

@@ -385,6 +385,7 @@ class HTMega_Elementor_Widget_Testimonial extends Widget_Base {
                     'default' => 3000,
                     'condition' => [
                         'slider_on' => 'yes',
+                        'slautolay' => 'yes',
                     ]
                 ]
             );
@@ -393,7 +394,7 @@ class HTMega_Elementor_Widget_Testimonial extends Widget_Base {
             $this->add_control(
                 'slanimation_speed',
                 [
-                    'label' => __('Autoplay animation speed', 'htmega-addons'),
+                    'label' => __('Slide animation speed', 'htmega-addons'),
                     'type' => Controls_Manager::NUMBER,
                     'default' => 300,
                     'condition' => [

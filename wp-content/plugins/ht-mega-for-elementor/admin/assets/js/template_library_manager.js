@@ -435,6 +435,7 @@
                 freeplugins: template_opt.freePlugins,
                 proplugins: template_opt.proPlugins,
                 requiredtheme: template_opt.requiredtheme,
+                plgactivenonce: HTTM.plgactivenonce,
             },
             complete: function( data ) {
                 $( ".htwptemplata-requiredplugins" ).html( data.responseText );
@@ -484,6 +485,7 @@
                 'htparentid'   : databtnattr.parentid,
                 'httitle'      : databtnattr.templpattitle,
                 'pagetitle'    : pagetitle,
+                'plgactivenonce' : HTTM.plgactivenonce,
             },
             dataType: 'JSON',
             beforeSend: function(){

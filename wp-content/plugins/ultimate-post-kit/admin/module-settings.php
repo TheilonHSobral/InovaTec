@@ -572,6 +572,15 @@ class ModuleService {
                     'video_url'    => 'https://youtu.be/3S5hRqxTDTo',
                 ],
                 [
+                    'name'         => 'post-comments',
+                    'label'        => esc_html__('Post Comments', 'ultimate-post-kit'),
+                    'type'         => 'checkbox',
+                    'default'      => "on",
+                    'widget_type'  => 'pro',
+                    'content_type' => 'template-builder new',
+                    'demo_url'     => 'https://postkit.pro/demo/post-comments/',
+                ],
+                [
                     'name'         => 'post-content',
                     'label'        => esc_html__('Post Content', 'ultimate-post-kit'),
                     'type'         => 'checkbox',

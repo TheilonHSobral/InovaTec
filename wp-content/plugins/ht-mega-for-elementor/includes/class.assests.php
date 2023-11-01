@@ -415,6 +415,7 @@ if ( !class_exists( 'HTMega_Elementor_Addons_Assests' ) ) {
                 'user'           => [
                     'email' => $current_user->user_email,
                 ],
+                'plgactivenonce'   => wp_create_nonce( 'htmega_actication_verifynonce' ),
             ];
             wp_localize_script( 'htmega-templates', 'HTTM', $localize_data );
 
@@ -727,6 +728,12 @@ if ( !class_exists( 'HTMega_Elementor_Addons_Assests' ) ) {
 				'title'      => __( 'Interactive Circle Infographic', 'htmega-addons' ),
 				'icon'       => 'htmega-icon eicon-integration',
 				'action_url' => esc_url('https://wphtmega.com/widget/elementor-interactive-circle-infographic-widget/'),
+			),
+            array(
+				'key'       => 'htmega-copy-coupon-code-addons',
+				'title'      => __( 'Copy Coupon Code', 'htmega-addons' ),
+				'icon'       => 'htmega-icon eicon-copy',
+				'action_url' => esc_url('https://wphtmega.com/widget/elementor-copy-coupon-code-widget/'),
 			),
 
         );

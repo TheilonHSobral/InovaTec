@@ -287,6 +287,15 @@ class HTMega_Elementor_Widget_Scroll_Navigation extends Widget_Base {
                 ]
             );
             $this->add_control(
+                'slider_keyboard_scroll',
+                [
+                    'label' => esc_html__( 'Keyboard Scroll', 'htmega-addons' ),
+                    'type' => Controls_Manager::SWITCHER,
+                    'return_value' => 'yes',
+                    'default' => 'no',
+                ]
+            );
+            $this->add_control(
                 'slider_simulate_touch',
                 [
                     'label' => esc_html__( 'Simulate Touch', 'htmega-addons' ),
@@ -538,6 +547,7 @@ class HTMega_Elementor_Widget_Scroll_Navigation extends Widget_Base {
             'tablet_width'             => absint( $settings['tablet_width'] ),
             'mobile_width'             => absint( $settings['mobile_width'] ),
             'mousewheel'        => ('yes' === $settings['slider_mousewheel']),
+            'keyboardscroll'        => ('yes' === $settings['slider_keyboard_scroll']),
             'simulateTouch'     => ('yes' === $settings['slider_simulate_touch']) ? true:false,
             'arrow'             => ('yes' === $settings['slider_arrow']),
             'pagination'        => ('yes' === $settings['slider_dots']),
